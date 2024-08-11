@@ -1,0 +1,12 @@
+# Logs
+/log/*
+/tmp/*
+/config/database.yml
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system/*
+/coverage/*
+/spec/tmp/*
+/*.rbc
+/.bundle
+/vendor/bundle

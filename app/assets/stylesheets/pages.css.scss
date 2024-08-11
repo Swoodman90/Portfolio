@@ -1,0 +1,37 @@
+header { 
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: white;
+  display: flex; /* Enable Flexbox */
+  justify-content: space-between; /* Space out items */
+  align-items: center; /* Align items vertically */
+  padding: 15px;
+  background-color:none; /* Set background color */
+}
+
+header h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 380;
+  font-style: normal;
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Arrange items horizontally */
+  justify-content: flex-end; /* Align items to the right */
+  width: 100%; /* Ensure the nav takes full width */
+}
+
+nav ul li {
+  padding: 0 20px; /* Add spacing between items */
+}
+
+body {
+  background-image: url(https://mrwallpaper.com/images/high/lighter-solid-grey-background-lg6bup60ibh9mpel.webp);
+  font-family: "Roboto", sans-serif;
+  font-weight: 250;
+  text-align: center;
+  
+}
