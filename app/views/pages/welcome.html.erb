@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <header>
     <h2>SHANE WOODMAN</h2>
     <nav>
       <ul>
-        <li>Portfolio</li>
+        <li><%= link_to "Portfolio", portfolio_path %></li>
         <li>Contact</li>
         <li>About</li>
       </ul>
@@ -14,11 +14,18 @@
   <main>
     <section>
       <p>Hey, I'm Shane. An aspiring software engineer from North Carolina.</p>
-      <button>View My Work</button>
+      <button><%= link_to "View My Work", portfolio_path %></button>
     </section>
   </main>
 
-
+  <footer>
+    <ul>
+      <li><%= link_to image_tag("https://live.staticflickr.com/65535/53919605045_b4b97b1fd9_q.jpg>"), "https://www.linkedin.com/in/shane-woodman-5275982b6/", target: "_blank" %>
+      </li>
+      <li><%= link_to image_tag("https://live.staticflickr.com/65535/53919598856_1c31cd52fd_m.jpg"), "https://github.com/Swoodman90", target: "_blank" %>
+      </li>
+    </ul>
+  </footer>
 
 
 
