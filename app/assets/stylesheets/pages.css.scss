@@ -11,9 +11,10 @@ header {
 
 header h2 {
   font-family: "Roboto", sans-serif;
-  font-weight: 380;
+  font-weight: 300;
   font-style: normal;
   display: flex;
+  padding: 0 15px;
 }
 
 nav ul {
@@ -43,13 +44,42 @@ body {
   background-image: url(https://mrwallpaper.com/images/high/lighter-solid-grey-background-lg6bup60ibh9mpel.webp);
   font-family: "Roboto", sans-serif;
   font-weight: 250;
-  text-align: center;
   display: flex;
   flex-direction: column;
 }
 
 main {
   flex: 1;
+}
+ 
+ main section {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0 0 0;
+ }
+
+main section p {
+  max-width: 400px;
+  margin: 0 15px 0 60px;
+  text-align: left;
+  font-size: 20px;
+}
+
+main section button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: inherit;
+  font-weight: 200;
+  border-radius: 8px;
+  border: none;
+}
+
+
+main section img {
+  max-width: 30%;
+  height: auto;
+  margin: 0 60px 0 15px;
+  border: 6px inset;
 }
 
 footer {
@@ -71,5 +101,5 @@ footer ul {
 footer ul li img {
   width: 50px;
   height: 50px;
-  padding: 10px
+  padding: 15px;
 }
