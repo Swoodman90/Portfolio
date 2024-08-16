@@ -55,7 +55,7 @@ main {
  main section {
   display: flex;
   justify-content: space-between;
-  margin: 100px 0 0 0;
+  margin: 0 0 115px 0;
  }
 
 main section p {
@@ -69,11 +69,10 @@ main section button {
   display: inline-block;
   padding: 10px 20px;
   font-family: inherit;
-  font-weight: 200;
+  font-weight: 300;
   border-radius: 8px;
   border: none;
 }
-
 
 main section img {
   max-width: 30%;
@@ -91,7 +90,6 @@ footer p {
   text-align: center;
 }
 
-
 footer ul {
   list-style-type: none;
   display: flex;
@@ -102,4 +100,18 @@ footer ul li img {
   width: 50px;
   height: 50px;
   padding: 15px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+main img {
+  max-width: 70%;
+  max-height: 90%;
+  border: 5px solid;
+  border-color: white;
 }
